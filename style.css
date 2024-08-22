@@ -1,0 +1,64 @@
+/*
+Theme Name: Ayata Blazing
+Theme URI: http://example.com
+Author: Your Name
+Author URI: http://example.com
+Description: A custom WordPress theme named Ayata Blazing.
+Version: 1.0
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Matter';
+    src: url('./fonts/matter-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('./fonts/matter-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('./fonts/matter-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('./fonts/matter-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Matter', sans-serif;
+}
+
+h1 {
+    font-family: 'Matter';
+    font-weight: bold;
+}
+
+p.light-text {
+    font-family: 'Matter';
+    font-weight: 300;
+}
+
+p.medium-text {
+    font-family: 'Matter';
+    font-weight: 500;
+}
+
+p.regular-text {
+    font-family: 'Matter';
+    font-weight: normal;
+}

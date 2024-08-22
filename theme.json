@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "100%",
+            "wideSize": "100%"
+        },
+        "custom": {
+            "disable_custom_fonts": true
+        }
+    }
+}
